@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apng2Gif", "src\Apng2Gif\Apng2Gif.csproj", "{32F0ADAF-15CF-4546-9184-737EF705008B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibAPNG", "src\APNG.NET-netstandard_and_wpf\LibAPNG\LibAPNG.csproj", "{F8207D54-7E84-4D3A-A6ED-534F4924BDE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibAPNG.WPF", "src\APNG.NET-netstandard_and_wpf\LibAPNG.WPF\LibAPNG.WPF.csproj", "{455F16BC-AE64-4620-B55D-D4E70467CF9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{22A2B152-6A0E-453B-96F9-1261918E3A8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F0ADAF-15CF-4546-9184-737EF705008B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F0ADAF-15CF-4546-9184-737EF705008B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F0ADAF-15CF-4546-9184-737EF705008B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F0ADAF-15CF-4546-9184-737EF705008B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8207D54-7E84-4D3A-A6ED-534F4924BDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8207D54-7E84-4D3A-A6ED-534F4924BDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8207D54-7E84-4D3A-A6ED-534F4924BDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8207D54-7E84-4D3A-A6ED-534F4924BDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{455F16BC-AE64-4620-B55D-D4E70467CF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455F16BC-AE64-4620-B55D-D4E70467CF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455F16BC-AE64-4620-B55D-D4E70467CF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455F16BC-AE64-4620-B55D-D4E70467CF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8207D54-7E84-4D3A-A6ED-534F4924BDE2} = {22A2B152-6A0E-453B-96F9-1261918E3A8F}
+		{455F16BC-AE64-4620-B55D-D4E70467CF9D} = {22A2B152-6A0E-453B-96F9-1261918E3A8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A26E9C14-84B6-4A3E-8177-0CB5E718AA2F}
+	EndGlobalSection
+EndGlobal

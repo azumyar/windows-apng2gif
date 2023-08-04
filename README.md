@@ -1,1 +1,2 @@
-# windows-apng2gif
+# apng2gif
+簡単にアニメーションPNGをアニメーションGIFに変換
